@@ -1,6 +1,6 @@
 class print{
     synchronized public void show(){
-        for(int i=1;i<=10;i++) System.out.print(i+" ");
+        for(int i=1;i<=1000;i++) System.out.print(i+" ");
     }
 }
 class MyThread extends Thread{
